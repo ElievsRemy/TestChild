@@ -1,0 +1,56 @@
+.sharing-wrapper div
+{
+	float: left;
+	margin-right: 10px;
+}
+
+.sharing-wrapper div.share-on
+{
+	padding: 5px;
+	font-weight: bold;
+}
+
+.sharing-wrapper div.facebook
+{
+	background-color: #3a5795;
+	padding: 5px;
+}
+
+.sharing-wrapper div.facebook a
+{
+	color: white;
+}
+
+.sharing-wrapper div.twitter
+{
+	background-color: #55acee;
+	padding: 5px;
+}
+
+.sharing-wrapper div.twitter a
+{
+	color: white;
+}
+
+.sharing-wrapper div.linkedin
+{
+	background-color: #007bb6;
+	padding: 5px;
+}
+
+.sharing-wrapper div.linkedin a
+{
+	color: white;
+}
+
+
+.sharing-wrapper div a
+{
+	text-decoration: none;
+	border: none;
+}
+
+.clear
+{
+	clear: left;
+}

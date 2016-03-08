@@ -1,0 +1,27 @@
+<?php
+
+function sharing_facebook_checkbox()
+{  
+   ?>
+        <input type="checkbox" name="sharing-facebook" value="1" <?php checked(1, get_option('sharing-facebook'), true); ?> /> Check for Yes
+   <?php
+}
+
+function sharing_twitter_checkbox()
+{  
+   ?>
+        <input type="checkbox" name="sharing-twitter" value="1" <?php checked(1, get_option('sharing-twitter'), true); ?> /> Check for Yes
+   <?php
+}
+
+function sharing_linkedin_checkbox()
+{  
+   ?>
+        <input type="checkbox" name="sharing-linkedin" value="1" <?php checked(1, get_option('sharing-linkedin'), true); ?> /> Check for Yes
+   <?php
+}
+
+ 
+add_action("admin_init", "sharing_settings");
+
+?>
